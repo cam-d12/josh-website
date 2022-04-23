@@ -5,7 +5,6 @@ h1 {
     margin-right: auto;
     text-align: center;
     font-size: 48px;
-    text-decoration: underline;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -15,6 +14,9 @@ body {
     background-color: rgb(214, 214, 214);
 }
 
+a {
+    text-decoration: none;
+}
 img {
     display: block;
     margin-left: auto;
@@ -27,12 +29,11 @@ img {
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
-    background-color: #2196F3;
+    background-color: rgb(214, 214, 214);
     padding: 10px;
   }
   .grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
+    background-color: rgb(214, 214, 214);
     padding: 20px;
     font-size: 30px;
     text-align: center;
