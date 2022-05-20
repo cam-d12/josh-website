@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Tapestry&display=swap');
+
 h1 {
     color: black;
     display: block;
@@ -5,7 +7,7 @@ h1 {
     margin-right: auto;
     text-align: center;
     font-size: 48px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:'Tapestry';
 }
 
 body {
@@ -16,6 +18,9 @@ body {
 
 a {
     text-decoration: none;
+    font-family: 'Roboto';
+
+    
 }
 img {
     display: block;
